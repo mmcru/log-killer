@@ -8,11 +8,11 @@ requirements:
 
 the script takes **3 mandatory arguments:**
 
-`log-killer.py` _[directory]_ _[spacelimit]_ _[ext]_
+`log-killer.py` _[directory]_ _[spacelimit]_ _[extension]_
 
 * directory:  the directory to look at for log files.  non-recursive.
 * spacelimit:  the space threshold for the disk, in a percentage.  whole numbers only.
-* ext:  the file extension to look at.  files that don't match this extension are ignored.
+* extension:  the file extension to look at.  files that don't match this extension are ignored.
 
 examples:
 
