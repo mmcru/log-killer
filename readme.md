@@ -16,10 +16,11 @@ the script takes **3 mandatory arguments:**
 
 examples:
 
-* windows:
-.* `python log-killer.py c:\logs 90 txt`
-.* delete the oldest txt file stored in c:\logs until the disk is at or under 80% capacity.
+windows:
+* `python log-killer.py c:\logs 90 txt`
+* delete the oldest txt file stored in c:\logs until the disk is at or under 80% capacity.
 
-* linux:
-.* `python log-killer.py /var/log 60 log`
-.* delete the oldest log file stored in /var/log until the disk is at or under 60% capacity.
+
+linux:
+* `python log-killer.py /var/log 60 log`
+* delete the oldest log file stored in /var/log until the disk is at or under 60% capacity.
