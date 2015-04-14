@@ -1,6 +1,6 @@
-###log-killer
-#a program that deletes the oldest log file
-#until enough disk space is full.
+##log-killer
+####a program that deletes the oldest log file
+####until enough disk space is full.
 
 requirements:
 * python 2.7
