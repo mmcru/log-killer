@@ -49,9 +49,9 @@ while psutil.disk_usage(directory).percent > spacelimit:
     print "disk is now %s percent full" % psutil.disk_usage(directory).percent
     count += 1
 
-if count > 1:
+if count > 0:
     print "finished!  deleted %s files under %s" % (count, directory)
 else:
-    print "finished... couldn't find any files that met the criteria.  see readme.md for help."
+    print "finished... couldn't find any files that met the criteria, or the disk is already using less space than the specified threshold.  see readme.md for help."
 
 print "disk is now %s percent full" % psutil.disk_usage(directory).percent
